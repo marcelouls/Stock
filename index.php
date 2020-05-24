@@ -101,6 +101,11 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
 	    </div><!--/.nav-collapse -->
 
 
+	    <div>
+	    	
+	    	teste GITHUB
+	    </div>
+
 	</div>
 	</nav>
 
