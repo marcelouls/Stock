@@ -101,7 +101,7 @@
 						<option value="3">Cajero2</option>
 						<option value="4">Administrador</option>
 						<option value="5">Supervisor</option>
-						<option value="6">Administrador</option>
+						<option value="6">Administrator</option>
 						<option value="7">Dba</option>
 						<option value="8">Usuario2</option>
 						<option value="9">Usuario3</option>
@@ -121,6 +121,8 @@
 
   			</form>
   			
+
+
  			 
 			</div>
       

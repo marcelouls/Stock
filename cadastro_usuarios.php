@@ -52,10 +52,17 @@ if ($usuario_existe ) {
 	
 }
 
+// executar a query
+
+$sql = " insert into usuarios(nome_usuario, rol_usuario, senha_usuario,fone_usuario, usuario_registro) values(upper('$nome'), '$funcao', '$senha', '$fone', upper('$usuario_ativo')); " ;
 
 mysqli_query($link, $sql);
-$sql = " insert into usuarios(nome_usuario, rol_usuario, senha_usuario,fone_usuario, usuario_registro) values(upper('$nome'), $funcao, '$senha', '$fone', upper('$usuario_ativo'));" ;
-// executar a query
+
+header('Location: home.php?');
+
+
+
+
 //var_dump($sql);
 
 

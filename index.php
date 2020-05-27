@@ -49,7 +49,8 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
 
 	</head>
 
-	<body>
+	<body style="background-image: url('imagens/back.png'); opacity:0.9">
+
 
 	<nav class="navbar navbar-default navbar-static-top" style="background: rgb(80,188,223)">
 	      <div class="container">
@@ -62,8 +63,7 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
 	          </button>
 	          <img src="imagens/logo.png" />
 	        </div>
-	     
-	    
+	     	    
 
 	     <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav navbar-right">
@@ -99,15 +99,11 @@ $erro = isset($_GET['erro']) ? $_GET['erro'] : 0;
 	            </li>
 	          </ul>
 	    </div><!--/.nav-collapse -->
-
-
-	    <div>
-	    	
-	    	teste GITHUB
-	    </div>
-
+	   
 	</div>
 	</nav>
+
+	
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	
